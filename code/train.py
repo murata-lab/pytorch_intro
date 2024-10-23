@@ -1,4 +1,4 @@
-# モデルのtrainの
+# モデルのtrainを行う
 
 
 if __name__ == '__main__':

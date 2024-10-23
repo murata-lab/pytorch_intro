@@ -1,5 +1,6 @@
 services:
   iris_null:
+    container_name: b3_intro
     build:
       context: .
       dockerfile: Dockerfile

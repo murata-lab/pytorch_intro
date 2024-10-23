@@ -23,10 +23,11 @@ docker
 コマンドが認識されない場合は、Dockerのインストールが必要です。
 
 ## Dockerコンテナの作成と起動
+1. docker-compose.ymlのcontainer_nameを自分で分かる名前に変更してください。
 
-1. プロジェクトのルートディレクトリ（pytorch_intro）に移動します。
+2. プロジェクトのルートディレクトリ（pytorch_intro）に移動します。
 
-2. 以下のコマンドを実行して、Dockerコンテナをビルドし起動します：
+3. 以下のコマンドを実行して、Dockerコンテナをビルドし起動します：
    ```bash
    docker-compose up -d --build
    ```

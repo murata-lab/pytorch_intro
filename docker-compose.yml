@@ -1,6 +1,6 @@
 services:
   iris_null:
-    container_name: b3_intro
+    container_name: b3_intro # 分かるように自分の名前を末尾につけてください。
     build:
       context: .
       dockerfile: Dockerfile
